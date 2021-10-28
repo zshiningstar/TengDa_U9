@@ -2,10 +2,10 @@
 ```
 mkdir -p ~/build
 cd ~/build
-git clone https://github.com/zsx-star/TengDa_U9.git
+git clone https://github.com/zshiningstar/TengDa_U9.git
 ```
 ```
-cd rtl8821CU
+cd TengDa_U9
 make
 sudo make install
 ```
@@ -29,3 +29,4 @@ sudo gedit /lib/udev/rules.d/40-usb_modeswitch.rules
 * Realtek 8211CU Wifi AC USB
 ATTR{idVendor}=="0bda", ATTR{idProduct}=="1a2b", RUN+="/usr/sbin/usb_modeswitch -K -v 0bda -p 1a2b"
 ```
+
